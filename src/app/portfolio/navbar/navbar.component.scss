@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/Helvetica.ttf') format('truetype');
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color:  transparent;
+    color: #c370e4;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+.logo{
+    height: 30px;
+    width: 40px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-right: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover{
+    color: #c370e4;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .navbar{
+        font-size: 15px;
+    }
+}

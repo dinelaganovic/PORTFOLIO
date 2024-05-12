@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/Helvetica.ttf') format('truetype');
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 0; /* Promenjen padding samo za gornji i donji deo */
+  font-family: "Helvetica", sans-serif;
+}
+
+.card {
+  border: 1.5px solid #c370e4;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 15px 5px #c370e4;
+  width: 500px; /* Širina kartice */
+  padding: 30px; /* Unutrašnji prostor */
+}
+  .profile-section {
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Zaobljavanje slike */
+    margin-bottom: 10px;
+  }
+  .contact-details{
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  p{
+    padding-top: 10px;
+    margin-left: 23%;
+    font-size: large;  
+    color: #fff;
+}
+h2{
+  color: #fff;
+}
+a{
+  color: inherit; /* Nasleđuje boju od roditeljskog elementa */
+  text-decoration: none; /* Uklanja podvučenost linkova */}
+  @media screen and (max-width: 600px) {
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20% 0; /* Promenjen padding samo za gornji i donji deo */
+      height: 400px;
+      font-family: "Helvetica", sans-serif;
+  }
+
+  .card {
+      border: 1.5px solid #c370e4;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 15px 5px #c370e4;
+      width: 280px; /* Širina kartice */
+      padding: 20px; /* Unutrašnji prostor */
+  }.contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30%;
+      font-family: "Helvetica", sans-serif;
+  
+  }
+  .profile-picture {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%; /* Zaobljavanje slike */
+    margin-bottom: 10px;
+  }
+ 
+h2{
+  font-size: 15px;
+}
+p{
+font-size: 12px;
+}
+  }

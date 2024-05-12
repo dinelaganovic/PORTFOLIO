@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('https://github.com/dinelaganovic/ng-deploy/blob/master/src/assets/fonts/Helvetica.ttf') format('truetype');
+}
+.aboutme-container{
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+    font-family: "Helvetica",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ex{
+    font-size: 35px;
+    color: #a255c1; 
+    font-family: 'Helvetica Compressed', sans-serif;
+}
+h2,h3{
+    color: #a255c1;
+}
+p{
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    padding-top: 30px;
+}
+.education-section,
+.project-section{
+    margin-top: 30px;
+}
+.project-card{
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 2px rgba(11, 35, 25, 0.3); /* Promijenjeni parametri */
+    padding: 10px;
+    margin: 10px 0;
+    background-color: transparent;
+}
+.project-card p{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.cardd {
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 2px rgba(11, 35, 25, 0.3); /* Promijenjeni parametri */
+}
+.cardd p{
+text-align: left;
+padding: 20px;
+}
+.card-description:hover a {
+    color: black !important;
+}
+@media screen and (max-width: 768px) {
+    p{
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .project-card p{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 8px;
+        padding-top: 8px;
+    }
+    .ex{
+        font-size: 25px;
+        font-family: 'Helvetica Compressed', sans-serif;
+    }
+    .card-description:hover a {
+        color: black !important;
+    }
+  }
+  

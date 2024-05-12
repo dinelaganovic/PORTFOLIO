@@ -1,0 +1,57 @@
+.card {
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 2px rgba(11, 35, 25, 0.3); /* Promijenjeni parametri */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 300px;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #a255c1;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .card-description:hover a {
+    color: black !important;
+}
+
+  
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Smanjujemo minimalnu širinu slike */
+    gap: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .image-container {
+      grid-template-columns: 1fr; /* Postavljamo da slike budu u jednom stupcu */
+    }
+    
+    .card-image {
+      width: 100%; /* Postavljamo da slika zauzima punu širinu unutar svog roditelja */
+      max-width: none; /* Poništavamo maksimalnu širinu kako bi se slika raširila na punu širinu */
+      height: auto; /* Automatski izračunajte visinu slike kako bi se očuvao omjer širine i visine */
+      margin-bottom: 10px; /* Dodajemo malo prostora između slika */
+    }
+    .card-description:hover a {
+      color: black !important;
+  }
+  }
+  
